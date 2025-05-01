@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: flutter pub get
+    command: flutter run -d web-server
+
+ports:
+  - port: 5000
+    onOpen: open-preview
