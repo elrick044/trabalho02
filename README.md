@@ -5,12 +5,8 @@ Gallery Explorer is a Flutter app that displays a list of images with a modern l
 ## Features
 
 - **Elegant UI Design**: Beautiful, responsive interface with fluid animations
-- **Image Gallery**: Browse through a collection of high-quality images
 - **Detailed View**: Comprehensive information about each image with hero animation transitions
-- **Interactive Elements**: Buttons for download, collections, favorites, and sharing
-- **Error Handling**: Graceful handling of loading states and error conditions
 - **Responsive Layout**: Adapts to different screen sizes and orientations
-- **Dark Mode Support**: Automatic theme switching based on system preferences
 
 ## Screenshots
 
@@ -55,8 +51,6 @@ The project follows a well-organized folder structure:
 ```
 lib/
 ├── main.dart         # App entry point with MaterialApp configuration
-├── theme.dart        # Theme definitions for light and dark mode
-├── image_util.dart   # Utility for image handling
 ├── models/           # Data models
 │   └── item_model.dart
 ├── data/             # Data repositories
@@ -86,8 +80,6 @@ The app implements smooth hero animations when navigating between the list and d
 - **flutter**: Core framework
 - **provider**: State management
 - **cached_network_image**: Efficient image loading and caching
-- **google_fonts**: Custom typography
-- **shared_preferences**: Local data persistence
 - **uuid**: Generating unique identifiers
 
 ## License

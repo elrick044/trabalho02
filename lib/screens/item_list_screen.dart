@@ -5,7 +5,7 @@ import '../widgets/item_card.dart';
 import 'item_detail_screen.dart';
 
 class ItemListScreen extends StatefulWidget {
-  const ItemListScreen({Key? key}) : super(key: key);
+  const ItemListScreen({super.key});
 
   @override
   State<ItemListScreen> createState() => _ItemListScreenState();
@@ -78,7 +78,7 @@ class _ItemListScreenState extends State<ItemListScreen> with SingleTickerProvid
             return Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [
+                children: <Widget>[
                   CircularProgressIndicator(
                     color: colorScheme.primary,
                   ),
